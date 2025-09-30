@@ -1,3 +1,4 @@
+
 import React, { createContext, useState, useEffect, useCallback, ReactNode } from 'react';
 import { Language } from '../types';
 
@@ -24,8 +25,8 @@ export const LanguageProvider: React.FC<{ children: ReactNode }> = ({ children }
         const loadTranslations = async () => {
             try {
                 const [enRes, kuRes] = await Promise.all([
-                    fetch('/locales/en.json'),
-                    fetch('/locales/ku.json')
+                    fetch('./locales/en.json'),
+                    fetch('./locales/ku.json')
                 ]);
                 const enData = await enRes.json();
                 const kuData = await kuRes.json();

@@ -1,8 +1,9 @@
 
 
+
 import React, { createContext, useState, useEffect, ReactNode } from 'react';
 import { initializeApp, getApp, getApps } from 'firebase/app';
-// FIX: Switched from a namespace import to named imports to align with the Firebase v9+ modular SDK, which resolves all 'not exported member' errors.
+// FIX: Switched to named imports to align with the Firebase v9+ modular SDK, which resolves all 'not exported member' errors.
 import {
     getAuth,
     onAuthStateChanged,
