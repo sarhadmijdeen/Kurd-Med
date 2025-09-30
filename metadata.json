@@ -1,0 +1,5 @@
+{
+  "name": "Kurd Med",
+  "description": "An AI-powered application to help users identify medications through packaging photos, barcode scans, name search, and a medical assistant chatbot.",
+  "requestFramePermissions": []
+}

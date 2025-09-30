@@ -1,0 +1,95 @@
+{
+  "header": {
+    "title": "Kurd Med AI",
+    "tagline": "Your Personal Medication Assistant"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "toggle": "Change language"
+  },
+  "navigation": {
+    "packaging": "Packaging",
+    "nameSearch": "Name Search",
+    "chatbot": "AI Chatbot"
+  },
+  "packagingScanner": {
+    "title": "Identify by Packaging",
+    "description": "Upload a clear photo of the medication's box or packaging. Our AI will analyze it for you.",
+    "prompt": "Identify the medication in this image."
+  },
+  "nameSearch": {
+    "title": "Identify by Name",
+    "description": "Enter the name of the medication below to get detailed information.",
+    "placeholder": "e.g., Ibuprofen",
+    "button": {
+      "search": "Search",
+      "searching": "Searching..."
+    },
+    "error": {
+      "enterName": "Please enter a medication name.",
+      "unexpected": "An unexpected error occurred. Please try again."
+    },
+    "prompt": "Identify the medication named \"{name}\"."
+  },
+  "aiChatbot": {
+    "title": "AI Medical Assistant",
+    "initialMessage": "Hello! I am Kurd Med, your AI medical assistant. How can I help you today? Remember to always consult a healthcare professional for medical advice.",
+    "placeholder": "Ask about a medication...",
+    "errorMessage": "Sorry, I encountered an error. Please try again."
+  },
+  "imageIdentifier": {
+    "chooseFile": "Choose a file",
+    "dragAndDrop": " or drag and drop",
+    "previewAlt": "Preview",
+    "button": {
+      "identify": "Identify Medication",
+      "analyzing": "Analyzing..."
+    },
+    "error": {
+      "selectImage": "Please select an image first.",
+      "unexpected": "An unexpected error occurred. Please try again."
+    }
+  },
+  "pillInfoCard": {
+    "uses": "Common Uses",
+    "sideEffects": "Potential Side Effects",
+    "dosage": "Dosage",
+    "activeIngredients": "Active Ingredients",
+    "disclaimer": "Disclaimer",
+    "error": {
+      "apiTitle": "API Error",
+      "failTitle": "Identification Failed",
+      "failMessage": "Could not identify the medication. Please try again with a clearer image or more specific name."
+    }
+  },
+  "onboarding": {
+    "step1": {
+      "title": "Welcome to Kurd Med!",
+      "content": "This quick tour will show you how to use the app's main features. You can skip at any time."
+    },
+    "step2": {
+      "title": "Scan Packaging",
+      "content": "Use the 'Packaging' option to identify medication by uploading a photo. The AI will analyze it for you."
+    },
+    "step3": {
+      "title": "Search by Name",
+      "content": "If you know the medication's name, select 'Name Search' and type it in to get detailed information instantly."
+    },
+    "step4": {
+      "title": "AI Medical Assistant",
+      "content": "Have a question? The 'AI Chatbot' is here to provide information about medications and health topics."
+    },
+    "step5": {
+      "title": "You're All Set!",
+      "content": "You're ready to start. Remember to always consult a healthcare professional for medical advice."
+    },
+    "buttons": {
+      "previous": "Previous",
+      "next": "Next",
+      "finish": "Finish",
+      "skip": "Skip Tour"
+    }
+  }
+}
